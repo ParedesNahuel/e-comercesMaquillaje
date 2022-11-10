@@ -60,21 +60,30 @@ function Navbar() {
         <li className="nav-item">
           <a className="nav-link active" aria-current="page" href="#">Inicio</a>
         </li>
-        <li className="nav-item">
-          <a className="nav-link" href="#">Link</a>
-        </li>
+        
         <li className="nav-item dropdown">
           <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Dropdown
+          Productos
           </a>
-          <ul className="dropdown-menu">
-            <li><a className="dropdown-item" href="#">Action</a></li>
-            <li><a className="dropdown-item" href="#">Another action</a></li>
-            <li><a className="dropdown-item" href="#">Something else here</a></li>
+          <ul className="dropdown-menu bg-light">
+            <li><a className="dropdown-item" href="#">Todos los productos</a></li>
+            <li><a className="dropdown-item" href="#">Feria online</a></li>
+            <li><a className="dropdown-item" href="#">Labios</a></li>
           </ul>
         </li>
         <li className="nav-item">
-          <a className="nav-link disabled">Disabled</a>
+          <a className="nav-link" href="#">Contactos</a>
+        </li>
+        <li className="nav-item">
+        <a className="btn position-relative">
+                <i className="bi bi-cart"></i>
+                <span
+                  className="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger"
+                  style={{ fontSize: "0.60em" }}
+                >
+                  3
+                </span>
+              </a>
         </li>
       </ul>
     </div>
