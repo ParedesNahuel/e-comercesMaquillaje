@@ -53,42 +53,69 @@ function Navbar() {
         </div>
       </nav> */}
 
-<nav className="navbar navbar-expand-lg bg-light">
-  <div className="container-fluid">
-    <div className="navbar" id="">
-      <ul className="navbar-nav me-auto mb-2 mb-lg-0" style={{flexDireccion:"row"}}>
-        <li className="nav-item">
-          <a className="nav-link active" aria-current="page" href="#">Inicio</a>
-        </li>
-        
-        <li className="nav-item dropdown">
-          <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-          Productos
-          </a>
-          <ul className="dropdown-menu bg-light">
-            <li><a className="dropdown-item" href="#">Todos los productos</a></li>
-            <li><a className="dropdown-item" href="#">Feria online</a></li>
-            <li><a className="dropdown-item" href="#">Labios</a></li>
-          </ul>
-        </li>
-        <li className="nav-item">
-          <a className="nav-link" href="#">Contactos</a>
-        </li>
-        <li className="nav-item">
-        <a className="btn position-relative">
-                <h5><i className="bi bi-cart"></i></h5>
-                <span
-                  className="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger"
-                  style={{ fontSize: "0.60em" }}
+      <nav className=" bg-light">
+        <div className="container-fluid">
+          <div className="">
+            <ul
+              className="nav mb-2 mb-lg-0 pt-1"
+              style={{ flexDireccion: "row" }}
+            >
+              <li className="nav-item">
+                <a className="nav-link text-dark" aria-current="page" href="#">
+                  Inicio
+                </a>
+              </li>
+
+              <li className="nav-item dropdown">
+                <a
+                  className="nav-link dropdown-toggle text-dark"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
                 >
-                  3
-                </span>
-              </a>
-        </li>
-      </ul>
-    </div>
-  </div>
-</nav>
+                  Productos
+                </a>
+                <ul className="dropdown-menu bg-light">
+                  <li>
+                    <a className="dropdown-item" href="#">
+                      Todos los productos
+                    </a>
+                  </li>
+                  <li>
+                    <a className="dropdown-item" href="#">
+                      Feria online
+                    </a>
+                  </li>
+                  <li>
+                    <a className="dropdown-item" href="#">
+                      Labios
+                    </a>
+                  </li>
+                </ul>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link text-dark" href="#">
+                  Contactos
+                </a>
+              </li>
+              <li className="nav-item">
+                <a className="btn position-relative">
+                  <h5>
+                    <i className="bi bi-cart"></i>
+                  </h5>
+                  <span
+                    className="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger"
+                    style={{ fontSize: "0.60em" }}
+                  >
+                    3
+                  </span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
     </div>
   );
 }
