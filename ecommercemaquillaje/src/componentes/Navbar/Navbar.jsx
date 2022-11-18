@@ -99,7 +99,7 @@ function Navbar() {
                   Contactos
                 </a>
               </li>
-              <li className="nav-item">
+              <li className="nav-item ms-auto">
                 <a className="btn position-relative">
                   <h5>
                     <i className="bi bi-cart"></i>
