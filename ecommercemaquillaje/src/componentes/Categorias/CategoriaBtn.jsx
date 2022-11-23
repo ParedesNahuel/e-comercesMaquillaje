@@ -2,7 +2,7 @@ import React from 'react'
 
 function CategoriaBtn(props) {
   return (
-    <div className='btn btn-primary rounded-pill m-1'>
+    <div className='btn-pink rounded-pill m-1'>
         {props.title}
     </div>
   )

@@ -8,7 +8,7 @@ function Logo() {
         alt=""
         className="img-fluid mx-auto"
       />
-      <h4>¡COMPRA ONLINE Y RECIBE TU PRODUCTO DONDE QUIERAS!</h4>
+      <h4 className="text-pink2">¡COMPRA ONLINE Y RECIBE TU PRODUCTO DONDE QUIERAS!</h4>
     </div>
   );
 }

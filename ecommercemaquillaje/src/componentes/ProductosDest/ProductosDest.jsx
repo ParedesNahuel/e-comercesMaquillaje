@@ -1,4 +1,5 @@
 import React from 'react'
+import BtnAllProducts from './BtnAllProducts'
 import CardProdDest from './CardProdDest'
 
 function ProductosDest() {
@@ -15,8 +16,8 @@ function ProductosDest() {
             <CardProdDest img={'https://d3ugyf2ht6aenh.cloudfront.net/stores/967/629/products/b91402b8-577b-4cba-9b93-2e9b8906e9541-857b86d505716ada3216587977842724-480-0.jpeg'}/>
             <CardProdDest img={'https://d3ugyf2ht6aenh.cloudfront.net/stores/967/629/products/4d03c01a-5c74-4f0e-87fb-4e19d5978d361-82909118bc17593b3016547135264564-480-0.jpeg'}/>
         </div>
-        <div>
-
+        <div className='my-4'>
+            <BtnAllProducts/>
         </div>
     </div>
   )

@@ -1,6 +1,6 @@
 function Header() {
   return (
-    <nav className="navbar navbar-expand-lg bg-light">
+    <nav className="navbar navbar-expand-lg nav-top text-white">
       <div className="container-fluid">
         <button
           className="navbar-toggler"
@@ -22,13 +22,13 @@ function Header() {
           <form className="" role="search">
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
               <li className="nav-item">
-                <a href="" className="nav-link">
+                <a href="" className="nav-link text-white">
                   <i className="bi bi-person-fill"></i>
                   Crear cuenta
                 </a>
               </li>
               <li className="nav-item">
-                <a href="" className="nav-link">
+                <a href="" className="nav-link text-white">
                   Iniciar sesion
                 </a>
               </li>

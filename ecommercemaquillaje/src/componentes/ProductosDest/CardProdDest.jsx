@@ -11,12 +11,12 @@ function CardProdDest(props) {
 
       <div className="card-img-overlay">
         <p className="text-end">
-          <small className="bg-primary rounded-pill px-2 py-1 text-white">56% OFF</small>
+          <strong className="bg-pink rounded-pill px-2 py-1 text-white">56% OFF</strong>
         </p>
       </div>
 
       <div className="card-body">
-        <a className="me-auto" href="">
+        <a className="me-auto text-start" href="">
           POLVO DE HADAS FAVORBEAUTY
         </a>
         <p className="text-start">
